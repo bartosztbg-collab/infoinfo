@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
 :root {
     --color-100: #e6e9fa;
@@ -16,4 +16,14 @@ body {
 
 .container-fluid {
     padding: 0px;
+}
+
+.hero {
+    padding: 50px 0px;
+    background-color: var(--color-400);
+    color: #fff;
+}
+
+.hero p {
+    color: var(--color-100);
 }
