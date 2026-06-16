@@ -27,3 +27,29 @@ body {
 .hero p {
     color: var(--color-100);
 }
+
+/* Style dla sekcji kontaktowej */
+.form-row {
+    border: 1px solid var(--color-200);
+}
+
+.form-row:focus {
+    border-color: var(--color-300);
+    box-shadow: 0 0 0 0.25rem var(--color-100);
+}
+
+.btn-primary {
+    background-color: var(--color-500);
+    border-color: var(--color-500);
+}
+
+.btn-primary:hover {
+    background-color: var(--color-400);
+    border-color: var(--color-400);
+}
+
+@media (max-width: 767.98px) {
+    .min-vh-250 {
+        min-height: 250px;
+    }
+}
