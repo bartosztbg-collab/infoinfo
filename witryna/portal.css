@@ -83,3 +83,7 @@ main {
     border-radius: 10px;
 }
 
+.navbar .nav-link.active {
+    font-weight: bold;
+}
+
