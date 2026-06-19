@@ -76,3 +76,11 @@ body {
     border-radius: 10px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar .nav-link.active {
+    font-weight: 700;
+    color: var(--color-500) !important;
+}
