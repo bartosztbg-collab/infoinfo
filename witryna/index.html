@@ -7,6 +7,7 @@
     <title>Portal InfoInfo</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 
     <link href="portal.css" rel="stylesheet">
 </head>
@@ -35,48 +36,135 @@
             </div>
         </header>
 
+        <section class="container py-5" id="kategorie">
+            <div class="row g-4">
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 p-3 text-center">
+                        <div class="card-body">
+                            <i class="bi bi-laptop display-4"></i>
+                            <h5 class="card-title fw-bold mt-2">Sprzęt</h5>
+                            <p class="card-text">Wszystko o podzespołach, konfiguracji i naprawie komputerów.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 p-3 text-center">
+                        <div class="card-body">
+                            <i class="bi bi-code-slash display-4"></i>
+                            <h5 class="card-title fw-bold mt-2">Oprogramowanie</h5>
+                            <p class="card-text">Systemy operacyjne, aplikacje użytkowe i narzędzia deweloperskie.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 p-3 text-center">
+                        <div class="card-body">
+                            <i class="bi bi-terminal display-4"></i>
+                            <h5 class="card-title fw-bold mt-2">Programowanie</h5>
+                            <p class="card-text">Nauka języków takich jak Python, JavaScript, C++ od podstaw.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 p-3 text-center">
+                        <div class="card-body">
+                            <i class="bi bi-database display-4"></i>
+                            <h5 class="card-title fw-bold mt-2">Bazy danych</h5>
+                            <p class="card-text">Projektowanie struktur danych, SQL, NoSQL i optymalizacja zapytań.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 p-3 text-center">
+                        <div class="card-body">
+                            <i class="bi bi-globe display-4"></i>
+                            <h5 class="card-title fw-bold mt-2">Sieci komputerowe</h5>
+                            <p class="card-text">Konfiguracja routerów, bezpieczeństwo sieciowe i protokoły internetowe.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 p-3 text-center">
+                        <div class="card-body">
+                            <i class="bi bi-shield-lock display-4"></i>
+                            <h5 class="card-title fw-bold mt-2">Cyberbezpieczeństwo</h5>
+                            <p class="card-text">Ochrona danych przed atakami, kryptografia i dobre praktyki.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
         <section class="container py-5" id="autorzy">
             <h2 class="text-center fw-bold mb-4">O autorach</h2>
+
             <div id="carouselAuthors" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
+
                     <div class="carousel-item active">
                         <div class="row align-items-center bg-light p-4 rounded border">
                             <div class="col-12 col-md-4 text-center">
                                 <img src="img/autor1.jpg" class="img-fluid rounded-circle mb-3 mb-md-0" alt="Anna Kowalska" style="max-width: 200px;">
                             </div>
+
                             <div class="col-12 col-md-8">
                                 <h3 class="fw-bold">Anna Kowalska</h3>
                                 <p class="lead text-muted">Specjalistka ds. Front-endu & UX Designer</p>
-                                <p>Anna odpowiada za to, jak nasza strona wygląda i jak intuicyjnie się z niej korzysta. Pasjonuje się nowoczesnymi frameworkami CSS oraz dostępnością stron internetowych dla każdego użytkownika.</p>
+                                <p>Anna odpowiada za to, jak nasza strona wygląda i jak intuicyjnie się z niej korzysta.</p>
                             </div>
                         </div>
                     </div>
+
                     <div class="carousel-item">
                         <div class="row align-items-center bg-light p-4 rounded border">
                             <div class="col-12 col-md-4 text-center">
                                 <img src="img/autor2.jpg" class="img-fluid rounded-circle mb-3 mb-md-0" alt="Piotr Nowak" style="max-width: 200px;">
                             </div>
+
                             <div class="col-12 col-md-8">
                                 <h3 class="fw-bold">Piotr Nowak</h3>
                                 <p class="lead text-muted">Full-Stack Developer & Administrator Sieci</p>
-                                <p>Piotr dba o zaplecze techniczne, bazy danych oraz logikę aplikacji. W wolnych chwilach konfiguruje bezpieczne połączenia sieciowe i prowadzi warsztaty z podstaw programowania w Pythonie.</p>
+                                <p>Piotr dba o zaplecze techniczne, bazy danych oraz logikę aplikacji.</p>
                             </div>
                         </div>
                     </div>
+
                 </div>
+
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselAuthors" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon bg-dark rounded" aria-hidden="true"></span>
-                    <span class="visually-hidden">Poprzedni</span>
+                    <span class="carousel-control-prev-icon bg-dark rounded"></span>
                 </button>
+
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselAuthors" data-bs-slide="next">
-                    <span class="carousel-control-next-icon bg-dark rounded" aria-hidden="true"></span>
-                    <span class="visually-hidden">Następny</span>
+                    <span class="carousel-control-next-icon bg-dark rounded"></span>
                 </button>
             </div>
         </section>
 
+        <section class="map-section py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Nasza lokalizacja</h2>
+
+                <div class="ratio ratio-16x9">
+                    <iframe
+                        src="https://maps.google.com/maps?q=Warszawa&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        title="Mapa lokalizacji firmy"
+                        loading="lazy"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
     </main>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
