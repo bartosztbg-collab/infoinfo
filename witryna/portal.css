@@ -27,3 +27,13 @@ body {
 .hero p {
     color: var(--color-100);
 }
+
+.map-section {
+    background-color: var(--color-100);
+    padding: 50px 0;
+}
+
+.map-section iframe {
+    border: 0;
+    border-radius: 8px;
+}
